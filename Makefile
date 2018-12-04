@@ -15,7 +15,6 @@ fmt:
 	find . -type f -name '*.go' -not -path "./**/*-packr.go" | xargs $(GO_IMPORTS)  -d -e -w
 
 deps:
-	$(GO_GET) "github.com/gobuffalo/packr/..."
 	$(GO_GET) -v -d ./...
 
 update:
