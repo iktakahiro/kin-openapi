@@ -3,7 +3,7 @@ package openapi3
 import (
 	"context"
 
-	"github.com/getkin/kin-openapi/jsoninfo"
+	"github.com/iktakahiro/kin-openapi/jsoninfo"
 )
 
 type Swagger struct {
