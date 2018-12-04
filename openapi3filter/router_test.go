@@ -5,8 +5,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/getkin/kin-openapi/openapi3"
-	"github.com/getkin/kin-openapi/openapi3filter"
+	"github.com/iktakahiro/kin-openapi/openapi3"
+	"github.com/iktakahiro/kin-openapi/openapi3filter"
 )
 
 func TestRouter(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/getkin/kin-openapi/openapi3"
+	"github.com/iktakahiro/kin-openapi/openapi3"
 	"github.com/stretchr/testify/require"
 )
 
